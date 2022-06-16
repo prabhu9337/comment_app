@@ -1,0 +1,59 @@
+.firstDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.firstDiv textarea {
+    resize: none;
+    margin-top: 2%;
+    outline: none;
+    border: 0;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 3px 5px 0px gray;
+    font-size: 15px;
+}
+.firstDiv .commentSec p {
+    color: crimson;
+    font-weight: bold;
+}
+.firstDiv .userComment {
+    display: flex;
+    flex-direction: column;
+}
+.firstDiv .userComment .main {
+    display: flex;
+    width: 390px;
+    justify-content: space-between;
+    align-items: center;
+}
+.firstDiv .userComment .h2 {
+    width: 150px;
+    word-wrap: break-word;
+}
+.firstDiv .userComment p {
+    width: 100%;
+    font-size: 11px;
+    margin: 0;
+    font-weight: bold;
+}
+.firstDiv .userComment .h2 .imgSec {
+    width: 40px;
+    height: 40px;
+    margin-top: 10%;
+}
+.firstDiv .userComment .h2 .imgSec img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.firstDiv .userComment .h1 {
+    width: 200px;
+    word-wrap: break-word;
+}
+.firstDiv .userComment h1 {
+    width: 100%;
+    font-size: 20px;
+}

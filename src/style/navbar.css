@@ -1,0 +1,31 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    background-color: cadetblue;
+    margin: 20px;
+    align-items: center;
+    position: sticky;
+    padding: 10px;
+}
+.nav .firstSec h1 {
+    color: yellow;
+    text-shadow: 2px 2px 5px red;
+    font-family: 'Syne Tactile', cursive;
+}
+.nav .secondSec {
+    display: flex;
+}
+.nav .secondSec h2 {
+    margin: 10px;
+    color: crimson;
+    text-shadow: 1px 1px 3px black;
+}
+.nav .thirdSec {
+    display: flex;
+}
+.nav .thirdSec h2 {
+    margin: 10px;
+    color: chartreuse;
+    text-shadow: 1px 1px 5px black;
+}
